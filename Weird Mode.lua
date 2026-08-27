@@ -1,10 +1,29 @@
 -- A-200
 coroutine.wrap(function()
     while true do
-        wait(math.random(450,200))
+        wait(math.random(200,450))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(1)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Weird-mode/refs/heads/main/A-200.lua"))()
+    end
+end)()
+
+-- Burner
+coroutine.wrap(function()
+    while true do
+        wait(math.random(450,500))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(1)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Weird-mode/refs/heads/main/Burner.lua"))()
+    end
+end)()
+
+-- Reddy
+coroutine.wrap(function()
+    while true do
+        wait(math.random(35,100))
+        wait(0.5)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Weird-mode/refs/heads/main/Reddy.lua"))()
     end
 end)()
 
