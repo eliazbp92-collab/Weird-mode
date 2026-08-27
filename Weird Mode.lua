@@ -1,12 +1,3 @@
--- Credit
-coroutine.wrap(function()
-    while true do
-        wait(0, 100000000)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Weird-mode/refs/heads/main/Credit.lua"))()
-    end
-end)()
-
 -- A-200
 coroutine.wrap(function()
     while true do
@@ -39,7 +30,6 @@ end)()
 coroutine.wrap(function()
     while true do
         wait(math.random(15,60))
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0.5)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Weird-mode/refs/heads/main/Hollow.lua"))()
     end
