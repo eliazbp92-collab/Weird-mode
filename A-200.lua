@@ -31,11 +31,11 @@ local entity = Spawner:Create({
 	},
 	Movement = {
 		Speed = 300,
-		Delay = 1,
+		Delay = 0,
 		Reversed = true
 	},
 	Rebounding = {
-		Enabled = true,
+		Enabled = false,
 		Type = "Ambush", -- "Blitz"
 		Min = 7,
 		Max = 7,
