@@ -41,9 +41,9 @@ local entity = Spawner:Create({
 		Max = 7,
 		Delay = 1, 
 		DelayEachNode = 1, 
-		DoorChecking = true, 
+		DoorChecking = false, 
 		DoorCheckingDelay = 1, 
-	    CheckLoop = true
+	    CheckLoop = false
 	},
 	Damage = {
 		Enabled = true,
